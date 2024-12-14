@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T12:27:19 WAT" name="Default suite" finished-at="2024-12-14T12:27:31 WAT" duration-ms="11566">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T12:27:19 WAT" name="Default test" finished-at="2024-12-14T12:27:31 WAT" duration-ms="11566">
+      <class name="TestCasePackage.MyFirstTest">
+        <test-method signature="openApp()[pri:1, instance:TestCasePackage.MyFirstTest@3023df74]" started-at="2024-12-14T12:27:19 WAT" name="openApp" finished-at="2024-12-14T12:27:27 WAT" duration-ms="7739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testlogo()[pri:2, instance:TestCasePackage.MyFirstTest@3023df74]" started-at="2024-12-14T12:27:27 WAT" name="testlogo" finished-at="2024-12-14T12:27:30 WAT" duration-ms="3109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogo -->
+        <test-method signature="login()[pri:3, instance:TestCasePackage.MyFirstTest@3023df74]" started-at="2024-12-14T12:27:30 WAT" name="login" finished-at="2024-12-14T12:27:30 WAT" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="closeApp()[pri:4, instance:TestCasePackage.MyFirstTest@3023df74]" started-at="2024-12-14T12:27:30 WAT" name="closeApp" finished-at="2024-12-14T12:27:31 WAT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestCasePackage.MyFirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

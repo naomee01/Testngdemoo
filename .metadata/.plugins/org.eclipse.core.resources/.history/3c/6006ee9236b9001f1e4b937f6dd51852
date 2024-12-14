@@ -1,0 +1,40 @@
+package TestCasePackage;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+/*
+ Open App
+ Log in
+ Log out
+ */
+
+
+public class MyFirstTest {
+	
+@Test(priority=1)
+
+	void openApp()
+	{
+		WebDriver driver =new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://opensource.demo.orangehrmlive.com/web/index.php/authlogin");
+		driver.manage().window().maximize();
+	}
+	
+	@Test(priority=2)
+	void login()
+	{
+		System.out.println("Login application");
+	}
+	
+	@Test(priority=3)
+	void logout()
+	{
+		System.out.println("Logout Application");
+	}
+	
+}
